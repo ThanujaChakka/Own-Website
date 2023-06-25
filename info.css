@@ -1,0 +1,81 @@
+.header{
+    display: flex;
+    float: right;
+    height: 35px;
+}
+.nav{
+    padding: 20px;
+}
+hr{
+    margin-top: 23px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(247, 242, 235);
+    font-size: x-large;
+}
+.pic{
+    background-image: url('http://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Scenery-Wallpaper.jpg');
+    height: 633px;
+    width: 1350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: width 1s linear;
+}
+.pic:hover {
+   
+    animation: pic 16s infinite;
+}
+@keyframes pic{
+    0%{
+        background-image: url('http://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Scenery-Wallpaper.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    20%{
+        background-image: url('http://3.bp.blogspot.com/-rN-SRoCSI_0/UMIBYbg7i7I/AAAAAAAAOss/jo5eUIVB56M/s1600/Beautiful+Autumn+Scenery+Wallpapers+10.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background-image: url('http://eskipaper.com/images/mountain-scenery-6.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-image: url('http://4.bp.blogspot.com/-fhGRdos5UQ0/Ugi12TiQmjI/AAAAAAAAXtg/9ARIVejUChk/s1600/Scenery+Wallpapers+for+Desktop.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    80%{
+        background-image: url('http://3.bp.blogspot.com/-aPB7a4sKIDo/UB3P12TyPSI/AAAAAAAAAEI/k3fYe2FfUhk/s1600/amazing+picture+of+nature17.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url('http://3.bp.blogspot.com/_8syJggjkpmE/TOztJAtjFVI/AAAAAAAAAFU/2NOY0uH_smg/s1600/great-scenery-background-1280x800-0912085.jpg');
+        height: 633.2px;
+        width: 1350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.text{
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 47%;
+    color: rgb(239, 239, 245);
+    font-size: xx-large;
+}

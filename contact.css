@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sname{
+    color: rgb(2, 20, 2);
+    font-family: cursive;
+    margin-top: 10px;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 204, 53);
+    height: 50px;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: end;
+    justify-content: space-between;
+}
+li {
+    display: inline;
+}
+a:link, a:visited {
+    margin-top: -5px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100%;
+  }
+  
+  a:hover, a:active {
+    background-color:rgb(53, 204, 53) ;
+  }
+  img{
+    height: 30%;
+    z-index: -1;
+    
+  }
+  h2{
+   
+    margin-left: 75%;
+    margin-top: -10%;
+    color: rgb(9, 56, 13);
+    font-size: 40px;
+    transition: width 1s linear;
+  }
+  p{
+    margin-top: -3.5%;
+    margin-left: 100px;
+    font-size: 40px;
+    color: rgb(9, 56, 13);
+    transition: width 1s linear;
+
+  }
+  p:hover, h2:hover{
+    animation: pa 1s infinite;
+    animation: hh 1s infinite;
+  }
+  @keyframes pa{
+    20%{
+        color: transparent;
+    }
+    40%{
+        color: rgb(9, 56, 13);
+    }
+    60%{
+        color: transparent;
+    }
+    100%{
+        color: rgb(9, 56, 13);
+    }
+  }
+  @keyframes hh{
+    20%{
+        color: transparent;
+    }
+    80%{
+        color: rgb(9, 56, 13);
+    }
+  }
+  .size{
+    height: 200px;
+ 
+    border-top-left-radius: 20%;
+    border-bottom-right-radius:20% ;
+ 
+  }
+  .details{
+   
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h3{
+    color: green;
+    font-size: 30px;
+  }
+  h4{
+    font-size: 22px;
+    color: green;
+  }
+  .green{
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+  }
+  .text{
+    text-align: center;
+    font-size: 35px;
+  }
+  .foot{
+    font-size: 20px;
+    font-family: cursive;
+     
+  }
+  .footer{
+    background-image: url('https://bmart.co.in/assets/img/bg/h5-bg-footer.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+  }
+  .p2,.p3,.p4{
+    font-size: larger;
+  
+   
+  }
+  #copy{
+    font-size: 20px;
+    text-align: center;
+    color: green;
+  }
+  hr{
+    height: 3px;
+    width: 40px;
+    background-color: orangered;
+    border: none;
+    margin-top: 5px;
+   
+  }
+  h6{
+    font-size: 23px;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="bg">
+        <img class="logo" src="http://www.tabfu.com/wp-content/uploads/2016/02/Your-Account-Logo.png" alt="" height="20%" width="20%" >
+        <form action="./suc.html">
+           <div class="new">Create an Account</div><br>
+            <div class="inp">
+              First Name <br> <input  id="wid" type="text" required="" placeholder="Enter your First Name...."><br><br>
+              Last Name <br><input id="wid" type="text" required="" placeholder="Enter your Last Name...."><br><br>
+              DOB <br><input type="date" required="" placeholder="dd-mm-yyyy"><br><br>
+              <label for="Gender">Gender <br></label>
+              <select name="Gender" id="gen">
+                 <option value="Male">Male</option>
+                 <option value="Female">Female</option>
+                 <option value="prefer not to say">Prefer not to say</option>
+             </select><br><br>
+                Phone no: <br><input type="tel"  required="" placeholder="Phone no"><br><br>
+                Email <br><input type="email" id="wid" required="" placeholder="Enter your email...."><br><br>
+                Create Password <br><input id="wid1" type="password" required="" placeholder="Enter password...."><br><br>
+                Confirm Password <br><input id="wid2" type="text" required="" placeholder="Re-enter your password...."><br><br>
+                <div id="dis"></div>
+              <center><input id="cre" type="submit" value="Create account"></center>
+           </div> 
+        </form>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>

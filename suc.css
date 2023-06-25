@@ -1,0 +1,30 @@
+
+img{
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 38px;
+    margin-bottom: 10px;
+   
+}
+figcaption{
+    font-size: 50px;
+    margin-left: 30%;
+    margin-top: -135px;
+    color: rgb(37, 168, 54);
+}
+body{
+background-image: url('https://cdn.wallpapersafari.com/92/99/CymLSX.jpg');
+height: 633px;
+width: 1350px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+a{
+    margin-top: 5%;
+   margin-left: 45%;
+    text-align: end;
+    font-size: 25px;
+    color: white;
+}
+

@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-simple-blue-and-white-two-color-background-material-backgroundsimpleposter-backgroundbanner-backgroundadvertising-image_51366.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  form{
+   
+    width: 35%;
+    height: 45%;
+    margin-left: 60%;
+    margin-top: -9%;
+    color: white;
+    font-size: large;
+  }
+  .inp{
+    margin-left: 23%;
+  }
+  #wid,#wid1,#wid2{
+    width: 65%;
+  }
+  #cre{
+    margin-left: -27%;
+    height: 30px;
+    font-size: 15px;
+  }
+  .logo{
+    margin-top: 16%;
+    margin-left: 6%;
+    height: 50%;
+    width: 30%;
+  }
+  .new{
+    margin-top: -83%;
+    margin-bottom: -2.7%;
+    font-size: 38px;
+    margin-left: 70px;
+  }
+#cre{
+    background-color: rgb(43, 43, 250);
+    color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <style>
+        #flex{
+            display: flex;
+        }
+        .txt{
+            font-size: 55px;
+            color:blue ;
+           margin-top: 15%;
+           transition: width 1s linear;
+        }
+        .txt:hover {
+            animation: txt 4s infinite;
+        }
+        @keyframes txt{
+            0%{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                 font-size:57px ;
+            }
+            25%{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                 font-size:60px ;
+            }
+            50%{
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                 font-size:57px ;
+            }
+            100%{
+                font-family:cursive;
+                font-size: 55px ;
+            }
+        }
+        a{
+            text-decoration: none;
+            font-size: 40px;
+            margin-left: 45%;
+          
+           color:blue ;
+        }
+        a:link, a:visited {
+    margin-top: -5px;
+    color:blue ;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2%;
+  }
+  
+  a:hover, a:active {
+    background-color:blue ;
+    color: white;
+  }
+    </style>
+</head>
+<body>
+    <div id="flex">
+        <div class="img">
+            <img src="https://cdn.dribbble.com/users/2046015/screenshots/5973727/06-loader_telega.gif" alt="">
+        </div>
+    <div class="txt">
+        <b>&nbsp&nbsp&nbspSuccessfully <br> Added to Cart!!!</b><br><br>
+        
+    </div>
+</div>
+<a href="home.html">Add more</a>
+</body>
+</html>
